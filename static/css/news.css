@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+
+.flex-web{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: top;
+    justify-content: space-between; 
+    margin-top: 30px;
+  }
+
+  .flex-web img{
+    width: 48%; 
+    object-fit: cover;
+    height: auto;
+    background-color: white;
+    margin-bottom: 80px;
+  }
+
+  .flex-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.flex-p img{
+    width: 25%; 
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+,small-image1{
+    position: relative;
+    flex: 1 1 50%;
+    max-width: 500px;
+}
+
+.big-image1{
+    position: relative;
+    flex: 1 1 30%;
+    max-width: 370px;
+}
+
+.video-web{
+    position: relative;
+    width: 100%;
+    padding-bottom: 6%; /* 16:9 比例的视频 */
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .video-web iframe  {
+    width:70%; /* 或者使用其他具体的像素值 */
+    height: 500px;
+  }

@@ -20,10 +20,11 @@
 
   .music-video-container2 {
     position: relative;
-    width: 40%;
+    width: 350px;
     flex: 0 0 auto; 
     align-self: flex-start;
   }
+
 
   .flex-pic{
     display: flex;
@@ -54,3 +55,12 @@
     margin-top: 20px;
   }
 
+  .website-flex {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-end;
+  }
+
+  .wp{
+    margin-top: 40px;
+  }

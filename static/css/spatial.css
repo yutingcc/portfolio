@@ -1,0 +1,29 @@
+spatial-video-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10%; 
+    overflow: hidden;
+}
+
+.hero-image{
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.hero-image img{
+    width: 100%;
+
+}
+
+.plot-image{
+    position: relative;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.plot-image img{
+    width: 100%;
+    margin-bottom: 15%;
+
+}

@@ -1,0 +1,18 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, calc((100% - 40px) / 3)); /* 初始状态下每行三列 */
+    gap: 20px; /* 图片之间的间距 */
+  }
+  
+  .gallery img {
+    width: 100%; /* 图片宽度填满容器 */
+    height: auto; /* 高度自适应 */
+    object-fit: cover; /* 确保图片充满容器 */
+  }
+  
+  /* 在屏幕宽度小于某个阈值时，调整网格布局为两列 */
+  @media screen and (max-width: 768px) {
+    .gallery {
+      grid-template-columns: repeat(2, calc((100% - 20px) / 2)); /* 每行两列 */
+    }
+  }
